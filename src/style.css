@@ -85,7 +85,20 @@ body {
 #image-icon {
     margin-left: 10px;
 }
-.meme-image {
+.meme {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 500px;
     height: 300px;
+}
+.meme-image {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+}
+.meme-top-text, .meme-bottom-text{
+    position: relative;
+    -webkit-text-stroke: 1px black;
 }
